@@ -171,8 +171,12 @@ section {
         padding-bottom: 1rem;
     }
 
-    .share:focus, .share:active .share-button   {
+    .share-background-change {
         background-color: #9eafc2;
+    }
+
+    .share:hover .share-box {
+        display: flex;
     }
 
     .share-box {
@@ -186,6 +190,10 @@ section {
         background-size: contain;
         padding-left: 4rem;
         padding-bottom: 2rem;
+    }
+
+    .show-share {
+        display: flex;
     }
 
     .share-triangale {
