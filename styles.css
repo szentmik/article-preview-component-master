@@ -171,7 +171,7 @@ section {
         padding-bottom: 1rem;
     }
 
-    .share:hover .share-button, .share:active .share-button {
+    .share:hover, .share:active .share-button {
         background-color: #9eafc2;
     }
 
