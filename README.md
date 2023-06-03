@@ -25,8 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://szentmik.github.io/article-preview-component-master/)
 
 ## My process
 
@@ -45,6 +44,6 @@ I want to be more quick.
 
 ## Author
 
-- Website - [Adam Szenmtiklossy](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Adam Szenmtiklossy](https://szentmik.github.io/)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/szentmik)
 # article-preview-component-master
