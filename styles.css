@@ -175,7 +175,7 @@ section {
         background-color: #9eafc2;
     }
 
-    .share:hover .share-box {
+    .share:focus, .share:active .share-box {
         display: flex;
     }
 
