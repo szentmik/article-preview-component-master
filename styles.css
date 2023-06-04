@@ -72,6 +72,8 @@ section {
     font-weight: 700;
 }
 
+/*----------- Share menu desktop -----------*/
+
 .share {
     margin-left: auto;
 }
@@ -88,13 +90,19 @@ section {
 }
 
 .share-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ecf2f8;
     border-radius: 100%;
-    margin-top: .25rem;
-    padding: .75rem;
+    margin-top: .5rem;
     position: relative;
-    max-height: 1rem;
-    max-width: 1rem;
+    height: 2.5rem;   
+    width: 2.5rem;
+}
+
+.share-button-bg {
+    background-color: #48556a;
 }
 
 .share-links {
@@ -127,21 +135,11 @@ section {
     flex-direction: column;
     position: absolute;
     top: -5rem;
-    right: -6.5rem;
+    right: -6rem;
     z-index: 1;
 }
 
-.share:hover .share-button {
-    background-color: #48556a;
-}
-
-.share:hover #share-btn>path {
-    fill: #ecf2f8;
-}
-
-.share:hover .share-box {
-    display: flex;
-}
+/*----------- Share menu desktop end -----------*/
 
 
 /* Mobile view */
@@ -171,12 +169,10 @@ section {
         padding-bottom: 1rem;
     }
 
-    .share:hover .share-box {
-        display: flex;
-    }
-    
-    .share:hover .share-button {
-        background-color: #9eafc2;
+    /*----------- Share menu mobile -----------*/
+
+    .share-button-bg-mobile {
+        background-color: #6d7f97;
     }
 
     .share-box {
@@ -184,6 +180,7 @@ section {
         left: -3rem;
         z-index: 0;
     }
+
 
     .share-links {
         border-radius: 0;
@@ -195,8 +192,13 @@ section {
     .share-triangale {
         display: none;
     }
+
+    /*----------- share menu end mobile-----------*/
 }
 
+.show-share {
+    display: flex;
+}
 
 .attribution {
     font-size: 11px;
