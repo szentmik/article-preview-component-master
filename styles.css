@@ -20,6 +20,11 @@ section {
     margin: 0;
 }
 
+button {
+    border: 0;
+    background: none;
+}
+
 .container {
     display: grid;
     grid-template-columns: 3fr 5fr;
@@ -171,12 +176,12 @@ section {
         padding-bottom: 1rem;
     }
 
-    .share-background-change {
-        background-color: #9eafc2;
-    }
-
     .share:focus, .share:active .share-box {
         display: flex;
+    }
+
+    .share:focus, .share:active .share-button {
+        background-color: #9eafc2;
     }
 
     .share-box {
@@ -190,10 +195,6 @@ section {
         background-size: contain;
         padding-left: 4rem;
         padding-bottom: 2rem;
-    }
-
-    .show-share {
-        display: flex;
     }
 
     .share-triangale {
